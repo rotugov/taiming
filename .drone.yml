@@ -1,0 +1,6 @@
+build:
+  test:
+    image: python:3.6
+    commands:
+      - pip install pytest
+      - py.test -v
