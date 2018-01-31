@@ -5,3 +5,6 @@ def test_fake():
 
 def test_nothing():
 	assert 1 == 1
+
+def test_failure():
+	assert 1 == 0
